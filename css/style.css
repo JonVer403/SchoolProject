@@ -13,11 +13,32 @@ body {
     border-width: 5px;
     border-color: black;
 }
-.nlink {
-    padding: 12px;
-    background-color: white;
-    width: 200px;
+
+@media only screen and (min-width: 992px) {
+    .nlink {
+        padding: 12px;
+        background-color: white;
+        width: 20%;
+    }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nlink {
+        padding: 12px;
+        background-color: white;
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nlink {
+        padding: 12px;
+        background-color: white;
+        width: 33%;
+    }
+}
+
+
 .nlink:hover{
     background-color: lightgray;
 }
@@ -106,4 +127,5 @@ h4 {
 #Blogs {
     display: flex;
     justify-content: center;
+
 }
