@@ -20,12 +20,22 @@ body {
         background-color: white;
         width: 20%;
     }
+    .link {
+        padding: 12px;
+        background-color: lightgray;
+        width: 20%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .nlink {
         padding: 12px;
         background-color: white;
+        width: 25%;
+    }
+    .link {
+        padding: 12px;
+        background-color: lightgray;
         width: 25%;
     }
 }
@@ -36,17 +46,18 @@ body {
         background-color: white;
         width: 33%;
     }
+    .link {
+        padding: 12px;
+        background-color: lightgray;
+        width: 33%;
+    }
 }
 
 
 .nlink:hover{
     background-color: lightgray;
 }
-.link {
-    background-color: lightgray;
-    padding: 12px;
-    width: 200px;
-}
+
 .link:hover {
     background-color: gray;
 }
@@ -129,3 +140,4 @@ h4 {
     justify-content: center;
 
 }
+
