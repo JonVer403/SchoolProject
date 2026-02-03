@@ -93,6 +93,9 @@ body {
         width: 120%;
         margin-bottom: 30px;
     }
+    .KatFoto {
+        width: 50%;
+    }
 }
 
 img.Mepic {
@@ -182,4 +185,3 @@ h4 {
     justify-content: center;
 
 }
-
