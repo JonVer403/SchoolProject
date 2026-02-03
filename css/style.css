@@ -96,6 +96,11 @@ body {
     .KatFoto {
         width: 20%;
     }
+    .fototo {
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+    }
 }
 
 img.Mepic {
@@ -133,7 +138,6 @@ nav {
 .fototo {
     display: flex;
     justify-content: space-around;
-    width: 10%;
 }
 .sectionblogs {
     display: flex;
